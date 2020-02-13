@@ -11,9 +11,9 @@ cd "$DAIM_PATH"
 
 echo clu_mastr_IP_ Read Receipt... "$cluster_master_IP"
 
-var_1="$(sed -n -r "/<name>fs.\default\.name<\/name>/ {n;s/^\s*<value>(.*?)\:9000<\/value>/\1/g;p}" core-site.xml)"
+var_1="$(sed -n -r "/<name>fs.\default\.name<\/name>/ {n;s/^\s*<value>(.*?)\:XXXX<\/value>/\1/g;p}" core-site.xml)"
 
-var_2="$(sed -n -r "/<name>mapred\.job\.tracker<\/name>/ {n;s/^\s*<value>(.*?)\:9001<\/value>/\1/g;p}" mapred-site.xml)"
+var_2="$(sed -n -r "/<name>mapred\.job\.tracker<\/name>/ {n;s/^\s*<value>(.*?)\:XXXX<\/value>/\1/g;p}" mapred-site.xml)"
 
 
 
