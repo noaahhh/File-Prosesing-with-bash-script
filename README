@@ -1,0 +1,18 @@
+***ÖNEMLİ***
+**
+-YENİ DEGERLER PARAMS ADLI DOSYADAKİ İLGİLİ YERLERE CİFT TIRNAKLAR ARASINA YAZILMALIDIR(DEGERİN BASINDA VEYA SONUNDA BOŞLUK OLMAMALI)!!  
+**
+-BAŞLAMADAN ÖNCE TOMCAT_SETUP.SH DAKİ PERSONAL_PATH DÜZENLENMELİDİR !!   
+**
+-CALISTIRMAK ICIN TOMCAT_SETUP.SH'IN YANINA DAIM SAS P2P VE ALL PARAMETRELERİNDEN BİRİ GELMELİDİR !!   
+**
+
+
+***IMPORTANT***
+**
+- New values should be written to the relevant places between double quotes in the file PARAMS (The typed value must not be spaces at the beginning and end.)
+**
+-Before you begin, PERSONAL_PATH must be edited  in tomcat_setup.sh !!
+**
+-To run, the script must be next to one of the SAS, P2P and ALL parameters !!
+**

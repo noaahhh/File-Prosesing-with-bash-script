@@ -1,0 +1,17 @@
+<--DAIM-->
+
+KYM_PATH="/home/hadoop/cluster/new_folder/kym-4.3.1.0"
+CLUSTER_MASTER_IP="os235"
+TABLE_PREFIX="a_6_4"
+
+<--SAS-->
+
+SERVER="main.server"
+DAIM_SURUM="balistika2016-daim-ws-suba-4.3.1.0"
+POSTGRE_DB="at"
+DB_NAME="sas_db_x.y.z"
+
+<--P2P-->
+
+SHARE_PATH="hello"
+INDEXES_PATH="world"
